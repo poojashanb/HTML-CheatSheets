@@ -1,0 +1,179 @@
+----------------- HTML CheatSheet - 1 ----------------- 
+
+HTML Headings :
+===============
+
+1. <h1>---<h6>
+<h1>Heading level 1</h1>
+<h2>Heading level 2</h2>
+<h3>Heading level 3</h3>
+<h4>Heading level 4</h4>
+<h5>Heading level 5</h5>
+<h6>Heading level 6</h6>
+
+- As the number of header tag goes up the size of text inside the header tag<> reduces.
+
+For more visit - https://devdocs.io/html/element/heading_elements
+___________________________________________________________________________________________________________________________________________________
+Line Break :
+============
+
+<br> - This tag helps to add a new line.
+
+For example,
+
+<h1>Hello World</h1>
+<br>
+<h2>Hello HTML</h2>
+
+Output  in the browser -
+
+------------------------
+Hello World
+
+Hello HTML
+------------------------
+The blank line between the above 2 sentences is because of <br> tag, the tag can also be used in between the texts in header tags.
+___________________________________________________________________________________________________________________________________________________
+
+Horizontal Line Tag :
+=====================
+
+<hr> - Tag is used to put a horizontal line in your page.
+This tag doesn't have an end tag.
+
+Attributes like size, noshade can be used with <hr>, that will help to make line look thinner or darker.
+
+For example,
+
+<hr size ="2" noshade>
+<h1>Hello</h1>
+<hr size ="2" noshade>
+
+Output :
+_________________     // This line and the one below Hello is due to the horizontal line <hr> tags
+Hello
+_________________
+
+___________________________________________________________________________________________________________________________________________________
+
+Center Tag :
+============
+
+<center></center> - A tag that keeps the content for which its applied in the center of page.
+This is an obsolete tag as this can be removed anytime and its use is discouraged.
+
+For example,
+
+<center>
+<h1>Hello World</h1>
+<h1>Hello HTML</h1>
+</center>
+
+Output :
+
+_____________________________
+                            |
+	    Hello World         |
+	    Hello HTML          |
+	                        |
+____________________________|
+
+___________________________________________________________________________________________________________________________________________________
+
+Comment Tag :
+=============
+
+<!-- Put your comments here -->
+- This tag helps to comment single as well as multiple lines.
+___________________________________________________________________________________________________________________________________________________
+
+DOCTYPE tag :
+=============
+-This tag tells that the type of file is html and the version of html
+-Usually it is html5 the recent version
+
+Used as,
+<!DOCTYPE html> or <!DOCTYPE>
+___________________________________________________________________________________________________________________________________________________
+
+html Tag :
+==========
+- This indicates the start of the html file/code
+- Inside this head and body of the page is defined.
+- This has both start <html> and end </html> tag.
+
+Example,
+<html>
+.... head content 
+.... body content 
+</html>
+___________________________________________________________________________________________________________________________________________________
+
+head Tag :
+==========
+-This tag contains all the information that developer wants to provide of the website.
+- Like the language(attribute) in which the web page is displayed.
+- Inside the head tag ,the title of the web page is given.
+- head tag has bot start <head> and end </head> tags.
+
+Example,
+<head lang="en">
+	<meta charset ="utf-8">					// character unicode type
+	<title>Personal Website</title>
+</head>
+___________________________________________________________________________________________________________________________________________________
+
+meta Tag :
+==========
+-This tag gives the extra/meta data about the web page.
+-Mainly used attribute in this tag is charset
+-charset tells the unicode language for characters to be used
+-no end tag for this meta tag.
+- standard encoding is - "UTF-8"
+Attributes:
+1. name = can be author , keyword or decription
+2. content = Specifies the value associated with the http-equiv or name attribute (first few lines below the main website link in browser search result)
+<meta name="description" content="Free Web tutorials for HTML and CSS">
+
+<meta charset="utf-8">
+___________________________________________________________________________________________________________________________________________________
+
+body Tag :
+==========
+- Body of the web page is written inside this tag
+- It has structure,
+<body>
+	.....
+	.....
+</body>
+___________________________________________________________________________________________________________________________________________________
+
+emphasis Tag :
+==============
+- Works almost similar to <i> tag
+- Italisizes the text in between the tags <em>...text here...</em>
+- Also emphasizes (pressurisez the importance) the text inside the tag.
+
+<em>Emphasize me</em>
+___________________________________________________________________________________________________________________________________________________
+
+bold Tag:
+=========
+- Makes the text inside the tag Bold.
+- <b>Text</b>
+- Styles the text to look bold
+___________________________________________________________________________________________________________________________________________________
+italic Tag :
+============
+- Makes the text inside the tag italic.
+- <i>Text</i>
+- Styles the text to look italic
+___________________________________________________________________________________________________________________________________________________
+
+Strong Tag :
+============
+- Makes the text inside the tag Bold.
+- <strong>Text</strong>
+- Stresses the importance of the text by making it bold/ structures the text to look bold
+___________________________________________________________________________________________________________________________________________________
